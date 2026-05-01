@@ -46,6 +46,8 @@ int main() {
 	// cout << bestSum << '\n';
 
 	// Textbook Solution:
+	// This is brilliant:
+	//
 	long bestSum = arr[0];
 	long sum = 0;
 	for (int i = 0; i < n; i++) {

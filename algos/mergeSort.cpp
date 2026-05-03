@@ -35,7 +35,6 @@ void mergeSort(int* arr, int a, int b) {
 int main(void) {
 	cin.sync_with_stdio(false);
 	cin.tie(nullptr);
-
 	freopen("test_arr.in", "r", stdin);
 
 	// Input:

@@ -3,9 +3,11 @@
 using namespace std;
 
 int main(int argc, char **argv) {
+	cin.sync_with_stdio(false);
+	cin.tie(nullptr);
 	freopen("test_arr.in", "w", stdout);
-	srand(time(0));
 
+	srand(time(0));
 	int n;
 	cin >> n;
 	cout << n << '\n';

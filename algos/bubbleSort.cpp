@@ -9,6 +9,10 @@
 using namespace std;
 
 int main(void) {
+	cin.sync_with_stdio(false);
+	cin.tie(nullptr);
+	freopen("test_arr.in", "r", stdin);
+
 	int n;
 	cin >> n;
 

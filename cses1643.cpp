@@ -6,8 +6,8 @@ using namespace std;
 #define max(a, b) (a) > (b)? (a): (b)
 
 int main() {
-	cin.sync_with_stdio(0);
-	cin.tie(nullptr);
+	ios::sync_with_stdio(false);
+	cin.tie(0);
 
 	int  i = 0;
 	long n;
@@ -47,7 +47,6 @@ int main() {
 
 	// Textbook Solution:
 	// This is brilliant:
-	//
 	long bestSum = arr[0];
 	long sum = 0;
 	for (int i = 0; i < n; i++) {

@@ -9,8 +9,8 @@ int abs(int a) {
 }
 
 int main(void) {
-	cin.sync_with_stdio(false);
-	cin.tie(nullptr);
+	ios::sync_with_stdio(false);
+	cin.tie(0);
 	freopen("test_arr.in", "r", stdin);
 
 	int n;

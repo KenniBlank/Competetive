@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-	cin.sync_with_stdio(false);
-	cin.tie(nullptr);
+	ios::sync_with_stdio(false);
+	cin.tie(0);
 	freopen("test_arr.in", "w", stdout);
 
 	srand(time(0));
